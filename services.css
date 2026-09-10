@@ -215,6 +215,51 @@ nav li a:hover{
 }
 
 
+.section-features{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    padding: 40px 20px;
+    background: #141414;
+    border: #262626;
+
+}
+.features-card-icon {
+    width: 82px;
+    height: 82px;
+    object-fit: contain;
+}
+.features-card{
+    width: 25%;
+    height: 212px;
+    border-radius: 12px;
+    border: 1px solid #262626;
+    background: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    transition: all 0.5s ease;
+    padding: 24px 20px;
+}
+.features-card:hover{
+    opacity: .3;
+    transform: scale(1.05);
+}
+.arrow-icon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.features-card p {
+    color: #FFFFFF;
+}
+
+
+
 
 
 
